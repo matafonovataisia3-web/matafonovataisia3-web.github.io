@@ -1,3 +1,14 @@
-baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://matafonovataisia3-web.github.io/
+languageCode: ru-ru
+title: "Сайт Таисии Матафоновой"
+theme: "ananke"
+params:
+  author: "Таисия Матафонова"
+  description: "Мой персональный сайт"
+  featured_image: "/images/фото.png"
+menu:
+  main:
+    - identifier: about
+      name: Обо мне
+      url: /about/
+      weight: 10
